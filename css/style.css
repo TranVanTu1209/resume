@@ -56,7 +56,7 @@ a {
 }
 .project ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   padding: 30px 10px;
   background-color: #f2f2f2;
   grid-gap: 1rem;
@@ -69,6 +69,10 @@ a {
 .project ul li {
   border-left: 2px #111 solid;
   padding-left: 20px;
+}
+.project ul li h3 {
+  margin-bottom: 10px;
+  border-bottom: 1px cornflowerblue solid;
 }
 .project ul li a{
   color: rgb(224, 24, 24);
